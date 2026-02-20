@@ -1,0 +1,45 @@
+.tarjeta-perfil {
+    background-color: #fadbe5;
+    border-radius: 30px;
+    display: flex;
+}
+.imagen-perfil {
+    border-radius: 80px
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Centra los botones */
+    gap: 10px;/* Espacio entre botones */
+    background-color: #fadbe5;/* El color rosado claro del fondo */
+    padding: 20px;
+    border-radius: 15px;
+}
+
+nav button {
+    background-color: #ff69b4; /* Rosa vibrante de la imagen */
+    border: none;/* Quita el borde gris por defecto */
+    padding: 10px 20px;/* Espaciado interno para dar forma */
+    border-radius: 50px;
+    cursor: pointer;/* Cambia el cursor al pasar el mouse */
+    transition: transform 0.2s;/* Para una animación suave */
+}
+
+/* Quitar el subrayado y color azul de los enlaces <a> dentro del botón */
+nav button a {
+    color: white;
+    text-decoration: none;/* Quita el subrayado */
+    font-weight: bold;/* Resalta el texto */
+    font-family: sans-serif;
+}
+nav button:hover {
+    background-color: #ff1493; /* Un rosa más oscuro al presionar */
+    transform: scale(1.05);/* El botón crece un poquito */
+}
+.container {
+    background-color: #fadbe5;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 15px;
+    min-height: 80px; /* Para que tengan altura aunque estén vacías */
+}
